@@ -12,7 +12,7 @@ alias ls='ls -lgGFhSt --color=auto'
 alias wfm='sudo wifi-menu'
 
 # launch xonotic-glx with sessionid
-cozotic='xonotic-glx -sessionid cozy'
+alias cozotic='xonotic-glx -sessionid cozy'
 
 # a variable that makes installing from the AUR less annoying.
 # and no I do not want yaourt
