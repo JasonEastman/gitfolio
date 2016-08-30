@@ -1,0 +1,77 @@
+:root{
+  --fg: #988453;
+  --bg: #333526;
+}
+
+html {
+  background-color: var(--bg);
+}
+
+/* essentially the header */
+
+.bigFancyDerp {
+  margin: 0px;
+  padding: 0px;
+  font-size: 90px;
+  text-align: center;
+  color: var(--fg);
+  font-family: 'Amatic SC', cursive;
+}
+
+
+.circle {
+  border: 2px solid var(--fg);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  background-color: var(--fg);
+}
+
+.tagline {
+  color: var(--fg);
+  font-size: 18px;
+  text-align:center; 
+  margin: auto;
+  font-family: 'Source Code Pro', 'cursive';
+  
+}
+
+/* end of header */
+/******************************/
+/* main content & misc */
+
+    hr { 
+	width: 50%;  
+	border: 1px solid var(--fg);
+	margin: auto;
+    } 
+
+   .content-box {
+	font-size: 18px;
+	width: 60%;
+	margin: auto;
+	color: var(--fg);
+        font-family: 'Source Code Pro', cursive;
+   } 
+
+/* end of main content */
+/*****************************/
+/* esentially the footer */
+#footer {
+
+    /* invert bg/fg vars */
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: var(--fg);
+    color:var(--bg);
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+}
+
+/* end of footer */
+
